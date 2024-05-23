@@ -7,7 +7,7 @@ Este projeto tem como objetivo buscar, processar e exibir dados de carrinhos de 
 O projeto está dividido em dois arquivos principais:
 
 1. `functions.py`: Contém funções auxiliares para buscar e processar dados.
-2. `main.ipynb`: Contém a função `main` que orquestra a execução do código.
+2. `main.py`: Contém a função `main` que orquestra a execução do código.
 
 ## Funcionalidades
 
@@ -21,7 +21,7 @@ Este arquivo contém as seguintes funções:
 - `merge_cart_with_category(df_cart, df_category)`: Faz o merge dos dados do carrinho com os dados de categoria com base nos IDs dos produtos.
 - `aggregate_cart_data(df_cart_category)`: Agrega os dados do carrinho para encontrar a data mais recente e somar as quantidades por usuário e categoria.
 
-### Arquivo `main.ipynb`
+### Arquivo `main.py`
 
 Este notebook contém a função `main` que executa o fluxo completo do projeto:
 
